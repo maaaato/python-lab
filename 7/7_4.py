@@ -1,6 +1,3 @@
-#!/bin/python
-
-
 def counter():
     counter = 0
 
