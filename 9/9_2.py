@@ -20,6 +20,15 @@ def decol(f):
         v = f(*args, **kwargs)
         print('after exec')
         return v
+
+    def hoge():
+        print("hoge")
+
+    def fuga():
+        print("fuga")
+
+    wrapper.hoge = hoge
+    wrapper.fuga = fuga
     return wrapper
 
 

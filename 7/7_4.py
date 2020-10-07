@@ -2,9 +2,9 @@ def counter():
     counter = 0
 
     def _increment():
-        nonlocal counter
-        counter += 1
-        return counter
+        # nonlocal counter
+        # counter += 1
+        return counter+1
     return _increment
 
 
